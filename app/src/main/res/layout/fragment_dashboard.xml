@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dashboardpage.DashboardFragment">
+
+    <LinearLayout
+        android:id="@+id/dashboard_Linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dashboardtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:text="@string/dashboard_title"
+            android:textSize="44sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dashboard_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="24" />
+
+        <Button
+            android:id="@+id/end_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/nopadding_dark"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:text="@string/end_game"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CoinPoly</string>
+    <string name="app_logo">splash_logo_discription</string>
+    <string name="created_by">created by</string>
+    <string name="company_name">Lyoko Studio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onboard_descrip">Monopoly\nBank\nAssistant</string>
+    <string name="onboard_image">person using a phone</string>
+    <string name="onboard_get_started">Get Started ✈</string>
+    <string name="friends_title">Friends</string>
+    <string name="next_button">next</string>
+    <string name="search_bar">   Add with love ....</string>
+    <string name="list_face">a person face with blue background</string>
+    <string name="list_button">Remove</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="end_game">End Game</string>
+    <string name="a_tick">a tick</string>
+    <string name="play_again">Play Again</string>
+    <string name="winnernotices">Notice : The game is based on propability so this doesnt make person 1 better...</string>
+</resources>
